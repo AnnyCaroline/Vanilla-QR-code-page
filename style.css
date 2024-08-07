@@ -14,6 +14,10 @@
     --spacing-500: 40px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: var(--slate-300);
 
@@ -61,6 +65,7 @@ img {
     border-radius: 20px;
     background-color: var(--white);
     padding: var(--spacing-200);
+    padding-bottom: var(--spacing-300);
     text-align: center;
 }
 
